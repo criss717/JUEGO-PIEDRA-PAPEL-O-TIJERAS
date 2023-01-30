@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, papel o tijera</title>
+   
+</head>
+<body>
+   <h1> Juego de piedra, papel o tijera</h1>
+   <h2> Con especial dedicatoria a la dueña de mi amor. C&J ps 💞</h2>
+   <section>
+
+       <button 
+       type="submit"
+       onclick="piedra()"
+       class="px-4 py-5 bg-blue-500 hover:bg-blue-700 text-white rounded m-3 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500" 
+       >
+        PIEDRA ✊
+       </button>
+       <button 
+       type="submit"
+       onclick="papel()"
+       class="px-4 py-5 bg-blue-500 hover:bg-blue-700 text-white rounded m-3 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"> PAPEL ✋
+       </button>
+       <button
+        type="submit"
+        onclick="tijera()"
+        class="px-4 py-5 bg-blue-500 hover:bg-blue-700 text-white rounded m-3 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"> TIJERA ✂
+       </button>
+   </section>
+   <div id="empates"> </div>
+   <div id="wins"> </div>
+   <div id="loses"> </div>
+   
+<script src="app.js"> </script> 
+</body>
+</html>
